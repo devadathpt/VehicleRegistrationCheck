@@ -46,12 +46,12 @@ public class webConnector {
     public void openBrowser(String browserType) {
         if (browserType.equals("Mozilla")) {
 
-            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "geckodriver");
+            System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir") + "//geckodriver.exe");
             driver = new FirefoxDriver();
         } else if (browserType.equals("Chrome")) {
             ChromeOptions options = new ChromeOptions();
             options.addArguments("chrome.switches", "--disable-extensions --disable-extensions-file-access-check --disable-extensions-http-throttling");
-            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/chromedriver");
+            System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "//chromedriver.exe");
 
             driver = new ChromeDriver();
         }
