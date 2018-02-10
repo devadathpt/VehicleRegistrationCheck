@@ -1,8 +1,7 @@
 package vehicleRegCheck.utilities;
 import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Properties;
+import java.util.*;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -93,7 +92,7 @@ public class webConnector {
 
     public String getText(String objectName)
     {
-       WebElement e= driver.findElement(By.xpath(OR.getProperty(objectName)));
+        WebElement e= driver.findElement(By.xpath(OR.getProperty(objectName)));
         String text = e.getText();
         return text;
     }
@@ -112,25 +111,29 @@ public class webConnector {
         driver.manage().timeouts().implicitlyWait(secs, TimeUnit.SECONDS);
     }
 
-    public void setData() throws IOException
+    public List<Vehicle> getExpectedVehicleData() throws IOException
     {
-        String[]  vehicleArr = new String[getVehicleDataFromExcel.getData().size()];
-        vehicleArr = getVehicleDataFromExcel.getData().get(1).toArray(vehicleArr);
-        ArrayList<Vehicle> VehicleList = new ArrayList<>();
-        v = new Vehicle();
-        v.setVehicle_Registration(vehicleArr[0]);
-        v.setVehicle_make(vehicleArr[1]);
-        v.setDate_of_first_registration(vehicleArr[2]);
-        v.setYear_of_manufacture(vehicleArr[3]);
-        v.setCylinder_capacity(vehicleArr[4]);
-        v.setCO2Emissions(vehicleArr[5]);
-        v.setFuel_type(vehicleArr[6]);
-        v.setExport_marker(vehicleArr[7]);
-        v.setVehicle_status(vehicleArr[8]);
-        v.setVehicle_colour(vehicleArr[9]);
-        v.setVehicle_type_approval(vehicleArr[10]);
-        v.setWheelplan(vehicleArr[11]);
-        v.setRevenue_weight(vehicleArr[12]);
+        List<Vehicle> vehicleList = new ArrayList<>();
+        for (Map.Entry<Integer, List<String>> integerListEntry : getVehicleDataFromExcel.getData().entrySet()) {
+
+            v = new Vehicle();
+            v.setVehicle_Registration(integerListEntry.getValue().get(0));
+            v.setVehicle_make(integerListEntry.getValue().get(1));
+            v.setDate_of_first_registration(integerListEntry.getValue().get(2));
+            v.setYear_of_manufacture(integerListEntry.getValue().get(3));
+            v.setCylinder_capacity(integerListEntry.getValue().get(4));
+            v.setCO2Emissions(integerListEntry.getValue().get(5));
+            v.setFuel_type(integerListEntry.getValue().get(6));
+            v.setExport_marker(integerListEntry.getValue().get(7));
+            v.setVehicle_status(integerListEntry.getValue().get(8));
+            v.setVehicle_colour(integerListEntry.getValue().get(9));
+            v.setVehicle_type_approval(integerListEntry.getValue().get(10));
+            v.setWheelplan(integerListEntry.getValue().get(11));
+            v.setRevenue_weight(integerListEntry.getValue().get(12));
+            vehicleList.add(v);
+        }
+
+        return vehicleList;
     }
 
 }
