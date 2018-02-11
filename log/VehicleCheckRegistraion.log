@@ -1,0 +1,89 @@
+2018-02-11 15:03:12 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:03:12 [main] INFO  VehicleData:27 -                
+2018-02-11 15:03:21 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:03:21 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:03:23 [main] INFO  VehicleData:43 - Entering Vehicle       VFZ1344
+2018-02-11 15:03:23 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:03:23 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:03:23 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:03:25 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:03:25 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:03:25 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:03:25 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:03:26 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:03:26 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:08:53 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:08:53 [main] INFO  VehicleData:27 -                
+2018-02-11 15:09:03 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:09:03 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:09:05 [main] INFO  VehicleData:43 - Entering Vehicle       VFZ1344
+2018-02-11 15:09:05 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:09:05 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:09:05 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:09:07 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:09:07 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:09:07 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:09:07 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:09:08 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:09:08 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:09:09 [main] INFO  VehicleData:100 - Closing Browser
+2018-02-11 15:09:09 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:09:09 [main] INFO  VehicleData:27 -                
+2018-02-11 15:09:17 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:09:17 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:09:18 [main] INFO  VehicleData:43 - Entering Vehicle       GK12YRF
+2018-02-11 15:09:18 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:09:18 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:09:18 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:09:19 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:09:19 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:09:19 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:09:19 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:09:20 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:09:20 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:09:21 [main] INFO  VehicleData:100 - Closing Browser
+2018-02-11 15:09:21 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:09:21 [main] INFO  VehicleData:27 -                
+2018-02-11 15:09:28 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:09:28 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:09:29 [main] INFO  VehicleData:43 - Entering Vehicle       LY15ULA
+2018-02-11 15:09:29 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:09:29 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:09:29 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:09:30 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:09:30 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:09:30 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:09:30 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:09:31 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:09:31 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:09:32 [main] INFO  VehicleData:100 - Closing Browser
+2018-02-11 15:09:32 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:09:32 [main] INFO  VehicleData:27 -                
+2018-02-11 15:09:39 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:09:39 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:09:40 [main] INFO  VehicleData:43 - Entering Vehicle       DV06 HBZ
+2018-02-11 15:09:40 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:09:40 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:09:40 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:09:41 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:09:41 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:09:41 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:09:41 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:09:42 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:09:42 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:09:43 [main] INFO  VehicleData:100 - Closing Browser
+2018-02-11 15:09:43 [main] INFO  VehicleData:26 - Opening Browser
+2018-02-11 15:09:43 [main] INFO  VehicleData:27 -                
+2018-02-11 15:09:50 [main] INFO  VehicleData:35 - Clicking on startButtonHref
+2018-02-11 15:09:50 [main] INFO  VehicleData:36 -                       
+2018-02-11 15:09:51 [main] INFO  VehicleData:43 - Entering Vehicle       HY66 WUT
+2018-02-11 15:09:51 [main] INFO  VehicleData:44 -                        
+2018-02-11 15:09:51 [main] INFO  VehicleData:54 - Clicking on      continueButton
+2018-02-11 15:09:51 [main] INFO  VehicleData:55 -                            
+2018-02-11 15:09:52 [main] INFO  VehicleData:62 - Matching on      VehicleMake :  Colour
+2018-02-11 15:09:52 [main] INFO  VehicleData:63 -                            
+2018-02-11 15:09:52 [main] INFO  VehicleData:71 - Clicking on      yesButton
+2018-02-11 15:09:52 [main] INFO  VehicleData:72 -                            
+2018-02-11 15:09:53 [main] INFO  VehicleData:84 - Matching all Data      
+2018-02-11 15:09:53 [main] INFO  VehicleData:85 -                            
+2018-02-11 15:09:54 [main] INFO  VehicleData:100 - Closing Browser
