@@ -19,9 +19,9 @@ public class GetFileList extends SimpleFileVisitor<Path>{
     }
 
 
-    public static Path getDataFileUri() throws IOException {
+    public static Path getDataFileUri(String uri) throws IOException {
         //String uri = "src/test/resources";
-        String uri = "C://VehicleRegCheck//";
+        //String uri = "C://VehicleRegCheck//";
 
         Iterator<Path> iterator = listFiles(uri).iterator();
 
